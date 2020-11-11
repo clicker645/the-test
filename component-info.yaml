@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Biblio
+metadata:
+  name: testname
+  namespace: testnamespace
+  description: The test description
+  annotations:
+    backstage.io/managed-by-location: github:https://github.com/clicker645/the-test/blob/master/component-info.yaml
+    backstage.io/techdocs-ref: dir:./
+  tags:
+    - docs
+spec:
+  type: service
+  status: run
+  owner: dmitry.dev
