@@ -1,6 +1,7 @@
-site_name: "testname"
-site_description: "The test description"
+site_name: testname
+site_description: The test description
 nav:
   - Introduction: index.md
+  - SecondPage: second-page.md
 plugins:
   - techdocs-core
